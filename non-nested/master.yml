@@ -42,8 +42,9 @@ Parameters:
     LambdaRuntime:
        Description: Runtime
        Type: String
-       Default: python3.7
+       Default: python3.12
        AllowedValues:
+            - python3.12
             - python3.7
             - python2.7
             - ruby2.5
